@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00BBFE40-6C9D-42A8-B6CD-7F41F60F44A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{4094A6D6-D454-4BE4-92E6-3EDD852AEFAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4094A6D6-D454-4BE4-92E6-3EDD852AEFAE} = {00BBFE40-6C9D-42A8-B6CD-7F41F60F44A9}
+	EndGlobalSection
+EndGlobal
