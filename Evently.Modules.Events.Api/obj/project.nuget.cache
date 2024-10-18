@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hApvlVmAodA=",
+  "dgSpecHash": "KB5N+NVTovM=",
   "success": true,
   "projectFilePath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Api/Evently.Modules.Events.Api.csproj",
   "expectedPackageFiles": [
+    "/Users/ramongomez/.nuget/packages/efcore.namingconventions/8.0.3/efcore.namingconventions.8.0.3.nupkg.sha512",
     "/Users/ramongomez/.nuget/packages/microsoft.entityframeworkcore/8.0.2/microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
     "/Users/ramongomez/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.2/microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",
     "/Users/ramongomez/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.2/microsoft.entityframeworkcore.analyzers.8.0.2.nupkg.sha512",
