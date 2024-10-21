@@ -7,8 +7,8 @@ services:
       context: .
       dockerfile: Evently.Api/Dockerfile
     ports:
-      - 5000:8080
-      - 5001:8081
+      - '5000:8080'
+      - '5001:8081'
   
   evently.database:
     image: postgres:latest
@@ -20,4 +20,4 @@ services:
     volumes:
       - ./.containers/db:/var/lib/postgresql/data
     ports:
-      - 5423:5432
+      - '5423:5432'
