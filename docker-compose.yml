@@ -1,4 +1,5 @@
 ﻿version: '3.9'
+name: evently
 services:
   evently.api:
     image: evently-eventlyapi
@@ -7,8 +8,8 @@ services:
       context: .
       dockerfile: Evently.Api/Dockerfile
     ports:
-      - '5000:8080'
-      - '5001:8081'
+      - "5001:8080"
+      - "5002:8081"
   
   evently.database:
     image: postgres:latest
@@ -20,4 +21,4 @@ services:
     volumes:
       - ./.containers/db:/var/lib/postgresql/data
     ports:
-      - '5423:5432'
+      - "5423:5432"

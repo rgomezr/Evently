@@ -1,0 +1,22 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.9"
+services:
+  evently.api:
+    build:
+      context: "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM"
+      dockerfile: "Evently.Api/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Evently.Api.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "evently-eventlyapi:dev"
+    ports: []
+    volumes:
+    - "/Users/ramongomez/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Api:/app:rw"
+    - "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM:/src:rw"
+    working_dir: "/app"
