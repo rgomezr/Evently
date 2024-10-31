@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TSnO0XlfRRA=",
+  "dgSpecHash": "QlXNXjCZF2Q=",
   "success": true,
-  "projectFilePath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Api/Evently.Api.csproj",
+  "projectFilePath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Api/Evently.Api.csproj",
   "expectedPackageFiles": [
     "/Users/ramongomez/.nuget/packages/efcore.namingconventions/8.0.3/efcore.namingconventions.8.0.3.nupkg.sha512",
     "/Users/ramongomez/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

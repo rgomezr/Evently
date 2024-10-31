@@ -2673,11 +2673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Api/Evently.Api.csproj",
+      "projectUniqueName": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Api/Evently.Api.csproj",
       "projectName": "Evently.Api",
-      "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Api/Evently.Api.csproj",
+      "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Api/Evently.Api.csproj",
       "packagesPath": "/Users/ramongomez/.nuget/packages/",
-      "outputPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Api/obj/",
+      "outputPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ramongomez/.nuget/NuGet/NuGet.Config"
@@ -2692,8 +2692,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Api/Evently.Modules.Events.Api.csproj": {
-              "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Api/Evently.Modules.Events.Api.csproj"
+            "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Api/Evently.Modules.Events.Api.csproj": {
+              "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Api/Evently.Modules.Events.Api.csproj"
             }
           }
         }

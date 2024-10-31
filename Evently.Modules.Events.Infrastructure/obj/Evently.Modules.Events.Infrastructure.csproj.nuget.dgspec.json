@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Infrastructure/Evently.Modules.Events.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Application/Evently.Modules.Events.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Application/Evently.Modules.Events.Application.csproj",
+        "projectName": "Evently.Modules.Events.Application",
+        "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Application/Evently.Modules.Events.Application.csproj",
+        "packagesPath": "/Users/ramongomez/.nuget/packages/",
+        "outputPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ramongomez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Domain/Evently.Modules.Events.Domain.csproj": {
+                "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Domain/Evently.Modules.Events.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.24.0.89429, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Domain/Evently.Modules.Events.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Domain/Evently.Modules.Events.Domain.csproj",
+        "projectName": "Evently.Modules.Events.Domain",
+        "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Domain/Evently.Modules.Events.Domain.csproj",
+        "packagesPath": "/Users/ramongomez/.nuget/packages/",
+        "outputPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ramongomez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.24.0.89429, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Infrastructure/Evently.Modules.Events.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Infrastructure/Evently.Modules.Events.Infrastructure.csproj",
+        "projectName": "Evently.Modules.Events.Infrastructure",
+        "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Infrastructure/Evently.Modules.Events.Infrastructure.csproj",
+        "packagesPath": "/Users/ramongomez/.nuget/packages/",
+        "outputPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ramongomez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Application/Evently.Modules.Events.Application.csproj": {
+                "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Application/Evently.Modules.Events.Application.csproj"
+              },
+              "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Presentation/Evently.Modules.Events.Presentation.csproj": {
+                "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Presentation/Evently.Modules.Events.Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.24.0.89429, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Presentation/Evently.Modules.Events.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Presentation/Evently.Modules.Events.Presentation.csproj",
+        "projectName": "Evently.Modules.Events.Presentation",
+        "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Presentation/Evently.Modules.Events.Presentation.csproj",
+        "packagesPath": "/Users/ramongomez/.nuget/packages/",
+        "outputPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ramongomez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Application/Evently.Modules.Events.Application.csproj": {
+                "projectPath": "/Users/ramongomez/Library/Mobile Documents/com~apple~CloudDocs/BASB/BASB_Personal/Areas/dev/modular_monolith_course/Evently-MM/Evently.Modules.Events.Application/Evently.Modules.Events.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.24.0.89429, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
