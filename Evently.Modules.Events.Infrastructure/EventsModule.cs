@@ -31,6 +31,13 @@ public static class EventsModule
             config.RegisterServicesFromAssembly(Application.AssemblyReference.Assembly);
         });
         
+        services.AddInfrastructure(configuration);
+        
+        return services;
+    }
+
+    private static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+    {
         string databaseConnectionString = configuration.GetConnectionString("Database")!;
 
         NpgsqlDataSource npgsqlDataSource = new NpgsqlDataSourceBuilder(databaseConnectionString).Build();
@@ -49,7 +56,5 @@ public static class EventsModule
         services.AddScoped<IEventRepository, EventRepository>();
 
         services.AddScoped<IUnitOfWork>(provider => provider.GetRequiredService<EventsDbContext>());
-
-        return services;
     }
 }
