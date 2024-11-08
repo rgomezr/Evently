@@ -1,6 +1,6 @@
 using Evently.Modules.Events.Domain.Events;
 
-namespace Evently.Modules.Events.Application.Events;
+namespace Evently.Modules.Events.Application.Events.GetEvent;
 
 public sealed record EventResponse(
     Guid Id,
