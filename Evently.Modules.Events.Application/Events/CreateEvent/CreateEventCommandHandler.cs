@@ -9,16 +9,7 @@ internal sealed class CreateEventCommandHandler(IEventRepository eventRepository
 {
     public async Task<Guid> Handle(CreateEventCommand request, CancellationToken cancellationToken)
     {
-        var @event = new Event
-        {
-            Id = Guid.NewGuid(),
-            Status = EventStatus.Draft,
-            Title = request.Title,
-            Description = request.Description,
-            Location = request.Location,
-            StartsAtUtc = request.StartsAtUtc,
-            EndsAtUtc = request.EndsAtUtc
-        };
+        var @event = Event.Create(request.Title, request.Description, request.Location, request.StartsAtUtc, request.EndsAtUtc);
         eventRepository.Insert(@event);
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
