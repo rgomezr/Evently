@@ -1,3 +1,5 @@
+using Evently.Modules.Events.Domain.Abstractions;
+
 namespace Evently.Modules.Events.Domain.Events;
 
 public sealed class Event : Entity
@@ -28,41 +30,11 @@ public sealed class Event : Entity
             Description = description,
             Location = location,
             StartsAtUtc = startsAtUtc,
-            EndsAtUtc = endsAtUtc
+            EndsAtUtc = endsAtUtc,
+            Status = EventStatus.Draft
         };
         @event.Raise(new EventCreatedDomainEvent(@event.Id));
         
         return @event;
     }
-}
-
-public sealed class EventCreatedDomainEvent(Guid eventId) : IDomainEvent
-{
-    public Guid EventId { get; init; } = eventId;
-}
-
-public abstract class Entity
-{
-    private readonly List<IDomainEvent> _domainEvents = [];
-    protected Entity()
-    {
-        
-    }
-    public IReadOnlyCollection<IDomainEvent> DomainEvents => _domainEvents.ToList();
-    
-    public void ClearDomainEvents()
-    {
-        _domainEvents.Clear();
-    }
-
-    protected void Raise(IDomainEvent domainEvent)
-    {
-        _domainEvents.Add(domainEvent);
-    }
-}
-
-public interface IDomainEvent
-{
-    Guid Id { get; }
-    DateTime OccurredOnUtc { get; }
 }
