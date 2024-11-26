@@ -1,7 +1,6 @@
-using System.Runtime.InteropServices.JavaScript;
 using Evently.Modules.Events.Domain.Abstractions;
 
-namespace Evently.Modules.Events.Domain.Events;
+namespace Evently.Modules.Events.Domain.Categories;
 
 public static class CategoryErrors
 {
