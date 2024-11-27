@@ -5,8 +5,7 @@ namespace Evently.Modules.Events.Domain.TicketTypes;
 
 public sealed class TicketType : Entity
 {
-
-    
+    private TicketType() { }
     public Guid Id { get; private set; }
     public Guid EventId { get; private set; }
     public string Name { get; private set; }
@@ -30,8 +29,19 @@ public sealed class TicketType : Entity
             Currency = currency,
             Quantity = quantity
         };
-        // Raise Domain Event for creating of a TicketType
+        
+        ticketType.Raise(new TicketTypeCreatedDomainEvent(ticketType.Id));
         
         return ticketType;
+    }
+
+    public void UpdatePrice(decimal price)
+    {
+        if (Price == price)
+        {
+            return;
+        }
+        Price = price;
+        Raise(new TicketTypePriceChangedDomainEvent(Id, Price));
     }
 }
